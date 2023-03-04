@@ -25,4 +25,43 @@ public class lab01_1 {
         }
         return max;
     }
+
+    public static void main(String[] args){
+
+        Wymierna w1 = new Wymierna(3,10);
+        Wymierna w2 = new Wymierna(6,9);
+
+        Wymierna[] wymierne = new Wymierna[] {w1, w2};
+
+        Wymierna minW = min(wymierne);
+        Wymierna maxW = max(wymierne);
+
+        System.out.println("Min: " + minW);
+        System.out.println("Max: " + maxW);
+
+
+        Zespolona z1 = new Zespolona(2,4);
+        Zespolona z2 = new Zespolona(6,9);
+
+        Zespolona[] zespolone = new Zespolona[] {z1, z2};
+
+        Zespolona minZ = min(zespolone);
+        Zespolona maxZ = max(zespolone);
+
+        System.out.println("Min: " + minZ);
+        System.out.println("Max: " + maxZ);
+
+
+        Punkt p1 = new Punkt(39, 101);
+        Punkt p2 = new Punkt(1, -1);
+
+        Punkt[] punkty = new Punkt[] {p1, p2};
+
+        Punkt minP = min(punkty);
+        Punkt maxP = max(punkty);
+
+        System.out.println("Min: " + minP);
+        System.out.println("Max: " + maxP);
+
+    }
 }

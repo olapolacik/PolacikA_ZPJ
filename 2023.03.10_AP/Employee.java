@@ -12,9 +12,17 @@ public class Employee implements Measurable {
         this.salary = salary;
     }
 
+    public String toString(){
+        return name;
+    }
+
     @Override
-    public double getMeasure() {
+    public double getMeasure(){
         return salary;
+    }
+
+    public String getName(){
+        return name;
     }
 
     private String name; //imie

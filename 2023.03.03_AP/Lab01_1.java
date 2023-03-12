@@ -1,4 +1,4 @@
-public class lab01_1 {
+public class Lab01_1 {
     public static <T extends Comparable<T>> T min(T... values) {
         if (values == null || values.length == 0) {
             throw new IllegalArgumentException("Values nie moze byc równy null lub zero");

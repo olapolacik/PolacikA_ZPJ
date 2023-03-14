@@ -1,7 +1,3 @@
-/**
- * @author Ola Połacik
- */
-
 //publiczna klasa Employee
 public class Employee implements Measurable {
 

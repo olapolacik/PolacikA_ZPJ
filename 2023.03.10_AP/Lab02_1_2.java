@@ -1,11 +1,8 @@
-import java.security.MessageDigest;
-import java.util.Arrays;
-
 /**
  * @author Ola Połacik
  */
 
-public class Lab02_1 {
+public class Lab02_1_2 {
     public static void main(String[] args)
     {
         //tablica obiektów z pracownikami

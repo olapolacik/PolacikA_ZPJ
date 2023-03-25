@@ -1,3 +1,7 @@
+/**
+ * @author Ola Polacik
+ */
+
 public class Lab03_1 {
 
     public static void main(String[] args){

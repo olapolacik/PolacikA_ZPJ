@@ -18,11 +18,12 @@ public class RandomInts {
         boolean hasNext();
     }
 
-
+    
     public static void main(String[] args){
         IntSequence seq = RandomInts.randomInts(1, 10);
         for (int i = 0; i < 10; i++) {
             System.out.println(seq.next());
         }
     }
+
 }

@@ -30,6 +30,6 @@ public class Lab06_4 {
             System.err.format("IOException: %s%n", e);
         }
 
-        System.out.println(slowa);
+        System.out.println("Słowo  ktore ma 5 unikalnych samoglosek: " + slowa);
     }
 }

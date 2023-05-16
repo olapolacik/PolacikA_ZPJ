@@ -9,10 +9,10 @@ public class Lab07_1 {
     }
 
     public static void main(String[] args){
-        //strumiec liczb calk. od 1-5
-        Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
+        //strumien liczb calk. od 1-5
+        Stream<Integer> stream = Stream.of(1,2,3,4,5);
         boolean isStreamFinite = Lab07_1.isFinite(stream);
-        System.out.println(isStreamFinite); //true - skonczona l. elem.
+        System.out.println(isStreamFinite); 
     }
 }
 

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
-public class Lab07_14 {
+public class Lab08_14 {
     public static void main(String[] args){
         ArrayList<Integer> lista1 = new ArrayList<>();
         lista1.add(1);

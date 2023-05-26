@@ -5,11 +5,9 @@ public class Greeter implements Runnable {
         this.target = target;
     }
 
-
     public String toString(){
         return n + " " + target + "target";
     }
-
 
     @Override
     public void run() {
@@ -17,10 +15,6 @@ public class Greeter implements Runnable {
             System.out.println("Witaj, " + target + "!");
         }
     }
-
-
-
-
     
     private String target;
     private int n;

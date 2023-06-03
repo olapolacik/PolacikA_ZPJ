@@ -1,4 +1,5 @@
 interface MyIterator {
+    
     boolean hasPrevious();
     boolean hasNext();
     int getNext();

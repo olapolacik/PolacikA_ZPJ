@@ -1,0 +1,9 @@
+W wyrażeniu regularnym String r = "\\b((\\d{3})(\\d{3})(\\d{4}))|((\\d{3})(\\d{4}))\\b";, 
+występuję 6 grup są one oznaczone przez nawiasy (), a każda grupa otrzymuje kolejny numer indeksu, zaczynając od 1.
+
+1. ((\d{3})(\d{3})(\d{4}))
+2. (\d{3})
+3. (\d{3})
+4. (\d{4})
+5. ((\d{3})(\d{4}))
+6. (\d{3})

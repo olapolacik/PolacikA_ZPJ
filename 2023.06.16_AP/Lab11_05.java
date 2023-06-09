@@ -9,7 +9,7 @@ public class Lab11_05 {
         Duration czasTrwaniaLotu = Duration.between(czasWylotu, czasPrzylotu);
 
         long godziny = czasTrwaniaLotu.toHours();
-        long minuty = czasTrwaniaLotu.toMinutes() % 60; // Poprawka
+        long minuty = czasTrwaniaLotu.toMinutes() % 60; 
 
         System.out.println("Czas trwania lotu -> " + godziny + " godz. " + minuty + " min.");
     }   

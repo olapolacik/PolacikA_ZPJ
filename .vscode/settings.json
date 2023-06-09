@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Kolokwium1",
+        "2023.06.02_AP",
         "2023.05.12_AP",
         "2023.04.28_AP",
         "2023.04.14_AP",
@@ -9,7 +10,7 @@
         "2023.03.17_AP",
         "2023.03.10_AP",
         "2023.03.03_AP",
-        "2023.06.02_AP"
+        "2023.06.16_AP"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
